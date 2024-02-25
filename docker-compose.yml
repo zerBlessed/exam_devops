@@ -33,6 +33,7 @@ services:
   wsgi_app:
     container_name: wsgi_app
     hostname: wsgi_app
+    image: rezrezrez/exam:latest
     build: 
       context: .
       dockerfile: Dockerfile
