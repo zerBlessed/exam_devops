@@ -47,3 +47,5 @@ def ticket():
             flash('Ошибка в заполнении БД.', 'danger')
             
     return render_template('tickets.html', ticket = ticket, ticket_id = ticket_id, film = film) 
+
+# dwadwa
