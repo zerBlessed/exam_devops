@@ -22,7 +22,7 @@ migrate = Migrate(app, db)
 from models import Inf, Tickets, create_models
 
 # Создание БД
-# create_models(app)
+create_models(app)
 
 @app.route('/')
 def index():
